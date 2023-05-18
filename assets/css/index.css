@@ -1,0 +1,160 @@
+
+:root {  
+ --body:#D9D9D9;
+
+--log-input:#ECECEC;
+--log-container:#495F78;
+--link-log:rgba(255, 255, 255, 0.7);
+
+--signup-link:#F78888;
+}
+
+
+.log_body{
+     background:var(--body);
+border-radius: 10px;
+width: 100%;
+height: auto !important;
+/* height: 100vh; */
+padding-bottom: 200px;
+
+}
+.log_main{
+    position:  relative;
+    top: 100px;
+    bottom: 100px;
+ background: var(--log-container) ;
+box-shadow: 25.78px 25.78px 41.25px 15.47px rgba(92, 177, 255, 0.25);
+}
+.log-bootm-detain li {
+    list-style: none;
+}
+.log-bootm-detain li a{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 15px;
+ 
+text-decoration: none;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+.log-bootm-detain li a:hover{
+ color: white;
+
+}
+ 
+.icon-addon {
+    position: relative;
+    color: #555;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+ 
+ 
+.addon-lg .form-control-log {
+    line-height: 1.33;
+    height: 50px;
+    font-size: 18px;
+    width: 100% !important;
+    
+    border-radius: 30px;
+    padding: 10px 16px 10px 80px;
+    border: none ;
+   background: var(--log-input);
+}
+.log-icons{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+.log-forget-pass{
+    float: right;
+
+    
+}
+.log-forget-pass a{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.5px;
+color:  var(--link-log);
+text-decoration: none;
+}
+.log-forget-pass a:hover{
+  
+color: white;
+ transition: 0.5s;
+}
+.log-btn1 button{
+   /* CTA */
+  height: 50px;
+background: #F78888;
+border-radius: 90px;
+width: 100%;
+
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+
+color: #FFFFFF;
+}
+
+.log-btn1 button:hover{
+   /* CTA */
+  height: 50px;
+background: #F78888;
+border-radius: 90px;
+width: 100%;
+
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.15px;
+
+color: #FFFFFF;
+}
+
+
+.log-signup-link{
+        font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+letter-spacing: 0.5px;
+
+/* White/70 % */
+
+color: rgba(255, 255, 255, 0.7);
+}
+.log-signup-link a{
+ color: var(--signup-link);
+ text-decoration: none;
+}
