@@ -488,11 +488,22 @@ border-radius: 10px;
 
 /*######################> Main Page Start <################## */
 
+.main-banner img{
+ 
+ 
+  width: 100%;
+ height: 80vh;
+ background-repeat: no-repeat;
+ background-size: 100%;
+}
 
-
-
-
-
-
+@media(max-width:992px)
+{
+  .main-banner img{
+ 
+ 
+ object-fit: cover;
+}
+}
 /*######################> Main Page End <################## */
 
